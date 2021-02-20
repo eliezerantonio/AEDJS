@@ -35,7 +35,7 @@ for (var i = 3; i < 20; i++) {
 }
 
 console.log(fibonacci) */
-
+/*
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 numbers.push(11);
 //adiciona depois
@@ -54,4 +54,15 @@ numbers.shift()
 //adicionando elementos em posicao especifica
 
 numbers.splice(3, 3, 67)
-console.log(numbers);
+console.log(numbers); */
+
+//Array bidimensinal
+
+var avgTempWeek = []
+var avgTempWeek1 = [33, 25.2, 19, 27, 23.4]
+var avgTempWeek2 = [41, 22.2, 20, 30, 26.4]
+
+avgTempWeek[0] = avgTempWeek1
+avgTempWeek[1] = avgTempWeek2
+
+console.log(avgTempWeek[0][4]);
