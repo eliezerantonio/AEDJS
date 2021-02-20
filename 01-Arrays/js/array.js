@@ -47,7 +47,11 @@ numbers.unshift(-3)
 numbers.unshift(-4)
 numbers.unshift(-5)
 
-numbers.pop(); //remove fo final
+numbers.pop(); //remove no final
 
 numbers.shift()
+
+//adicionando elementos em posicao especifica
+
+numbers.splice(3, 3, 67)
 console.log(numbers);
