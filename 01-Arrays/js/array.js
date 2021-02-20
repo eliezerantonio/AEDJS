@@ -7,7 +7,7 @@ avgTemp[3] = 38;
 avgTemp[4] = 25.5;
 
 //console.log("Tempo " + avgTemp[2]);
-
+/*
 var daysOfWeek = [
     "Sunday",
     "Monday",
@@ -34,4 +34,15 @@ for (var i = 3; i < 20; i++) {
 
 }
 
-console.log(fibonacci)
+console.log(fibonacci) */
+
+var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+numbers.push(11);
+
+numbers.unshift(-1)
+numbers.unshift(-2)
+numbers.unshift(-3)
+numbers.unshift(-4)
+numbers.unshift(-5)
+
+console.log(numbers);
