@@ -57,7 +57,7 @@ numbers.splice(3, 3, 67)
 console.log(numbers); */
 
 //Array bidimensinal
-
+/*
 var avgTempWeek = [] //-2
 var avgTempWeek1 = [33, 25.2, 19, 27, 23.4]
 var avgTempWeek2 = [41, 22.2, 20, 30, 26.4]
@@ -71,5 +71,30 @@ for (var i = 0; i < avgTempWeek.length; i++) {
 
     for (var j = 0; j < avgTempWeek[i].length; j++) {
         console.log(avgTempWeek[i][j])
+    }
+}*/
+
+var month = []
+var firstWeek = [] //-2
+var lastWeeks = []
+
+var avgTempWeek1 = [33, 25.2, 19, 27, 23.4]
+var avgTempWeek2 = [41, 22.2, 20, 30, 26.4]
+
+var avgTempWeek3 = [1, 2.2, 8, 6, 6.4, 34]
+var avgTempWeek4 = [5, 7.2, 38, 16, 6.4, 24]
+
+firstWeek = [avgTempWeek1, avgTempWeek2];
+lastWeeks = [avgTempWeek3, avgTempWeek4];
+
+month = [firstWeek, lastWeeks]
+
+for (var x = 0; x < month.length; x++) {
+
+    for (var y = 0; y < month[x].length; y++) {
+
+        for (var z = 0; z < month[x][y].length; z++) {
+            console.log(month[x][y][z])
+        }
     }
 }
